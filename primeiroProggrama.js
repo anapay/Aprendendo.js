@@ -10,3 +10,6 @@ console.log (idadeEmAnos + 2);
 //console.log (idadeEmAnos * 2);//
 //console.log (idadeEmAnos / 3);//
 
+const idadeEmAnos = idade+2;
+console.log(idadeEmAnos);
+
