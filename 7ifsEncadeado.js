@@ -29,6 +29,7 @@ else //se não for maior e nem estiver acompanhado execute esse;
 {
     console.log("Desculpa! Menores só podem entrar acompanhados, volte acompanhado de um adulto e se divirta com a nossa sessão de filmes!")
 };
+//ter cuidado com as condicionais em um unico codigo podem gerar problemas de logica
 
 
 
