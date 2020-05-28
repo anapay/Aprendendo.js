@@ -17,7 +17,7 @@ if (idade >= 18) //se cliente for maior que >=18 execute o comando seguinte!;
     console.log("Veja os filmes em destaque!")
     console.log(filmesMaiores)
 }
-else if (acompanhado) //se não for maior faz a verificaçaõ do if se está acompanahdo
+else if (acompanhado) //se não for maior faz a verificaçaõ do if se está acompanhado
 {
     console.log("Menor acompanhado")
     console.log("Seja bem vindo! Divirta-se!")
