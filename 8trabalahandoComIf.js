@@ -6,4 +6,5 @@ if(salario < 2600.0){
 if(salario > 3750.0){
     console.log("A sua aliquoata é de 22,5%")
     console.log("Você pode reduzir ate R$ 636")
+
 }
