@@ -40,9 +40,9 @@
     }
     else
     {
-        console.log("Eses livros vão mudar sua vida Joven!")
+        console.log("Eses livros vão mudar sua vida Jovem!")
         console.log(clienteMenor);
 
-    }
+    };
 
 
