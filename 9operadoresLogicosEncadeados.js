@@ -13,7 +13,7 @@ const temIngresso = false;
 
 if (idade >= 18 || acompanhado == true) //verifique se  o cliente é >= 18 ou esta acompanhado e execute o comando seguinte!; nesse caso pipe que são as barras invertidas funcionam como ou e vai fazer a comparação emtre ser maior ou está acompanhado;
 {
-    console.log("Veja os filmes em destaque! Seja bem vindo! Divirta-se!")//esse comando so vai ser executado se uma das duas opções forem verdadeiras;
+    console.log("Veja os filmes em destaque! Divirta-se!")//esse comando so vai ser executado se uma das duas opções forem verdadeiras;
     console.log(filmesMaiores)
 }
 else //se não for maior e nem estiver acompanhado execute esse;
@@ -23,9 +23,9 @@ else //se não for maior e nem estiver acompanhado execute esse;
 
 console.log("Sessão! \n\n") //para entrar na sessao verifique
 
-if(idade >= 18 && temIngresso){ //se for >18 && se tem ingresso, observe que essa condição só vai ser executada se as duas opções forem verdadeiras;
+if (idade >= 18 && temIngresso) { //se for >18 && se tem ingresso, observe que essa condição só vai ser executada se as duas opções forem verdadeiras;
     console.log("Tenha uma ótima sessão!");//se true execute;
-}else {
+} else {
     console.log("Compre um ingresso e retorne ainda da tempo, use o App")//caso contrario execute esse;
 };
 
