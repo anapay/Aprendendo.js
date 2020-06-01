@@ -6,17 +6,17 @@ const DuplasSertanejas = new Array(
     "Henrique & Juliano",
     "Lucas Reis e Tacio"
 )
-const idade = 17;
+const idade = 18;
 const acompahada = false;
 let temIngresso = false;
 let TemShow = "Jorge & Mateus";
 
 const podeEntrar = idade >= 18 || acompahada == true;
 let i = 0;
-while (contador <= 3) {
+while (i <= 3) {
     if (DuplasSertanejas[i] == TemShow) {
         TemShow = true
-        console.log("Tem o Show que vc quer assitir; Divirta-se!", TemShow)
+        console.log("Tem o Show que vc quer assitir; corra e compre seu ingresso!")
         break
     }
 
@@ -27,7 +27,8 @@ console.log("Arena De Shows")
 if (podeEntrar && TemShow) {
     console.log("Otimo Show!")
 } else {
-    console.log("Essa dulpa não vai ser exibida hoje! Assista outras ou reagende seu ingresso")
+        console.log("Tem o Show que vc quer assitir; !")
+        console.log("Volte com um adulto e assita aos Shows")
 };
 for (let i = 0; i <=3; cont = i++) {
     if (DuplasSertanejas[i] == TemShow) {
