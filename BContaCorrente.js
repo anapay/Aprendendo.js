@@ -8,12 +8,10 @@ export class ContaCorrente extends Conta {
 
     }
 
-
+// esse método sacar está sobrescrevendo o comportamento de sacar da classe mãe
     sacar(valor) {
         let taxa = 1.1;
             return this._sacar(valor, taxa);
-        
-
     }
 
 }

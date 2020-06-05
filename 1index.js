@@ -16,9 +16,13 @@ const conta2 = new ContaCorrente(cliente2, 1001)
 const contaPoupanca = new ContaPoupanca(cliente1, 1001, 35000000);
 const contaPoupanca2 = new ContaPoupanca(cliente2, 1001, 350000)
 
-console.log(contaPoupanca, conta1);
-console.log(contaPoupanca2, conta2);
+const conta = new Conta(cliente1, 1001, 0)
 
+console.log(conta)
+
+// console.log(contaPoupanca, conta1);
+// console.log(contaPoupanca2, conta2);
+// console.log(ContaCorrente.numeroContas);
 
 
 

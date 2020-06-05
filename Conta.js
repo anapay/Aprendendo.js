@@ -1,10 +1,15 @@
 
 export class Conta {
     constructor(cliente, agencia, saldo) {
+
+        if (this.constructor == Conta) {
+            throw new Error("Você não deveria instanciar um objeto do tipo conta Diretamente!");
+
+        }
         this._cliente = cliente;
         this._agencia = agencia;
         this._saldo = saldo;
-     
+
     }
 
     set cliente(novoValor) {
@@ -26,10 +31,10 @@ export class Conta {
     sacar(valor) {
         let taxa = 1;
         return this._sacar(valor, taxa);
-        
+
 
     }
-   
+
     _sacar(valor, taxa) {
         const valorSacado = taxa * valor;
         if (this._saldo >= valorSacado) {
