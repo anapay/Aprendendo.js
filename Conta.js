@@ -27,7 +27,7 @@ export class Conta {
     get saldo() {
         return this._saldo;
     }
-//métodp abstrato
+//método abstrato
     sacar(valor) {
         throw new Error("Esse método é abstrato")
 
