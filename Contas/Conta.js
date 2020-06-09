@@ -45,12 +45,10 @@ export class Conta {
 
 
     depositar(valor) {
-        if (valor <= 100) {
-            return;
-        }
         this._saldo += valor;
 
     }
+    
     trasferir(valor, conta) {
         const valorSacado = this.sacar(valor);
         conta.depositar(valorSacado);
